@@ -9,6 +9,12 @@
       "source": "^/UI5-SAMPLE/(.*)$",
       "target": "$1",
       "localDir": "webapp"
-    }
+    },
+    {
+		"source": "^/CAP_NODE/(.*)",
+		"target": "$1",
+		"destination": "CAP_NODE",
+		"csrfProtection": false
+	}
   ]
 }
